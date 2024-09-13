@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* start header section */
+.header-home{
+    background-image: url(img/download.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.header-home h3{
+    background-color: #64a790;
+    color: white;
+    padding: 30px;
+    margin-top: 65px;
+    border-radius: 25px;
+    font-size: 50px;
+    font-family: cursive;
+    line-height: 70px;
+}
+/* end header section */
+/* start clinic section */
+.clinic{
+    margin-top: 30px;
+}
+.school{
+    font-family: cursive;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+hr{
+    width: 300px;
+    margin: 0 auto;
+    height: 4px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.279);
+    margin-bottom: 20px;
+}
+h4{
+    margin-top: 30px;
+    font-family: cursive;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.prog{
+    font-family: cursive;
+    line-height: 35px;
+}
+.compo{
+    margin-top: 15px;
+}
+/* end clinic section */
+/* start middle section */
+.touth{
+    /* margin-top: 60px; */
+    background-image: url(img/Path\ 62.png) , url(img/i-love-my-job-so-much_329181-2178.png) ;
+    background-size: cover;
+    height: 750px;
+}
+.bg-light{
+    padding: 30px;
+    border-radius: 20px;
+}
+@media only screen and (max-width:992px){
+    .touth{
+        height: fit-content;
+        padding: 50px;
+    }
+    /* end middle section */
+}
+/* srart footer section */
+.footer-home a{
+    display: block;
+   color: aliceblue;
+   line-height: 30px;
+}
+
+.footer-home{
+    margin-bottom: 30px;
+    background-color: #0f7b65;
+    padding-top: 60px;
+    height: 300px;
+    color: aliceblue;
+    border-radius: 140px 140px 0px 0px;
+}
+.footer-home h3{
+    color: #ec8b72;
+}
+.footer-home h2 , p{
+    text-align: center;
+    margin-bottom: 15px;
+
+
+}
+@media only screen and (max-width:768px){
+    .footer-home{
+        height: fit-content;
+        padding-bottom: 50px;
+        border-radius: 100px 100px 0px 0px;
+    }
+}
+@media only screen and (max-width:768px){
+    .footer-home h2 , p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+/* end footer section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
